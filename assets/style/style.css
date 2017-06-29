@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url("../fonts/gotham-rounded/GothamRnd-Medium.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Rounded';
+  font-weight: bold;
+  src: url("../fonts/gotham-rounded/GothamRnd-Bold.otf") format("opentype");
+  font-display: swap;
+}
+
+body {
+  font-family: 'Gotham Rounded', 'Roboto', sans-serif;
+  font-size: 1.5em;
+  color: #0E2340;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+
+.main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blue { color: #0C223F; }
+.gray { color: #999999; }
+.red { color: #DB4437; }
+
+.upcase { text-transform: uppercase; }
+.downcase { text-transform: lowercase; }
+a {
+  text-decoration: none;
+  color: #0E2340;
+  cursor: pointer;
+}
+a:link { color: #0E2340; }
+a:visited { color: #0E2340; }
+a:hover { color: #0E2340; }
+a:active { color: #0E2340; }
+
+header {
+  background-color: #0E2340;
+  height: 226px;
+  color: #D8D8D8;
+}
+
+footer {
+  color: #0E2340;
+  height: 226px;
+  background-color: #85919F;
+  margin-top: 140px;
+}
+
+footer .copy {
+  color: #979797;
+}
+
+footer p {
+  margin-top: 160px;
+}
+
+header .contact {
+  text-align: right;
+  padding: 40px 50px 0 0;
+}
+
+nav {
+  /* background: red; */
+  height: 100px;
+}
+
+nav ul {
+  vertical-align: middle;
+  list-style-type: none;
+  padding-top: 40px;
+}
+
+nav ul li {
+  display: inline;
+  padding-left: 20px;
+}
+
+nav ul li.button {
+  float: right;
+  padding: 8px 40px;
+  background-color: #0E2340;
+  margin-right: 50px;
+  border-radius: 8px;
+  margin-top: -8px;
+}
+
+nav ul li.button a {
+  color: white;
+}
+
+main {
+  height: 600px;
+  background: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section p {
+  text-align: center;
+}
+
+section img {
+  max-width: 100%;
+}
+
+section .img {
+  height: 180px;
+}
+
+section p.caption {
+  margin-top: 20px;
+}
+
+section .horizontal {
+  margin-top: 60px;
+}
+
+@media (max-width: 767px) {
+  header .contact {
+    text-align: center;
+    padding: 10px 0 0 0;
+  }
+
+  nav {
+    height: 220px;
+    padding-top: 20px;
+  }
+  nav ul {
+    padding: 0;
+  }
+
+  nav ul li {
+    display: block;
+    text-align: center;
+    float: none !important;
+    padding: 0 !important;
+    height: 2em;
+    background-color: transparent !important;
+    margin: 0 !important;
+  }
+
+  nav ul li a {
+    color: #0E2340 !important;
+  }
+
+  article div {
+    margin-top: 40px;
+  }
+}
