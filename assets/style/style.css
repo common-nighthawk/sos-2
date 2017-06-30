@@ -63,7 +63,13 @@ footer .copy {
 }
 
 footer p {
-  margin-top: 160px;
+  margin-top: 60px;
+}
+
+footer img{
+  display: inline-block;
+  width: 50px;
+  margin-right: 20px;
 }
 
 header .contact {
@@ -111,6 +117,10 @@ section p {
   text-align: center;
 }
 
+section p.sp {
+  margin-bottom: 40px;
+}
+
 section img {
   max-width: 100%;
 }
@@ -125,6 +135,12 @@ section p.caption {
 
 section .horizontal {
   margin-top: 60px;
+}
+
+@media (max-width: 992px) {
+  nav ul li.button {
+    padding: 8px 12px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -157,5 +173,13 @@ section .horizontal {
 
   article div {
     margin-top: 40px;
+  }
+
+  footer img{
+    width: 40px;
+  }
+
+  footer .nn {
+    padding: 0;
   }
 }
