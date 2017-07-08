@@ -1,0 +1,46 @@
+header {
+  background-color: #0E2340;
+  height: 180px;
+  color: #D8D8D8;
+}
+
+header .contact-info {
+  text-align: right;
+  padding: 40px 50px 0 0;
+}
+
+footer {
+  color: #0E2340;
+  height: 226px;
+  background-color: #85919F;
+  margin-top: 140px;
+}
+
+footer p {
+  margin-top: 60px;
+}
+
+footer img{
+  display: inline-block;
+  width: 50px;
+  margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+  header {
+    height: 230px;
+  }
+
+  header .contact-info {
+    text-align: center;
+    padding: 10px 0 0 0;
+  }
+
+  footer img {
+    width: 40px;
+  }
+
+  footer .tiny {
+    padding: 0;
+  }
+}
