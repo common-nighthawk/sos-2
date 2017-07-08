@@ -22,6 +22,12 @@ nav ul li.button {
   margin-top: -8px;
 }
 
+nav ul li a.selected {
+  color: #DB4437;
+  text-decoration: underline;
+  border-bottom: 1px #DB4437 solid;
+}
+
 nav ul li.button a {
   color: white;
 }

@@ -16,6 +16,7 @@ section p {
 
 section p:first-of-type {
   margin-bottom: 40px;
+  text-transform: UPPERCASE;
 }
 
 section .image-container {
