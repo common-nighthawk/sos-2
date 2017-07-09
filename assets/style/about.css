@@ -1,0 +1,12 @@
+main .image-container {
+  height: 480px;
+}
+
+main img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+main p:first-of-type {
+  margin-top: 60px;
+}

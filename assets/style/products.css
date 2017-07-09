@@ -1,0 +1,38 @@
+main .image-container {
+  height: 180px;
+}
+
+main .row {
+  margin-bottom: 140px;
+}
+
+main p {
+  text-align: center;
+}
+
+main img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+main p.button {
+  padding: 8px 0;
+  width: 200px;
+  margin: 6px auto;
+  background-color: #0E2340;
+  border-radius: 8px;
+}
+
+main p.button a {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  main .row {
+    margin-bottom: initial;
+  }
+
+  main p.button {
+    margin-bottom: 80px;
+  }
+}

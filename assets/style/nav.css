@@ -23,9 +23,8 @@ nav ul li.button {
 }
 
 nav ul li a.selected {
-  color: #DB4437;
-  text-decoration: underline;
-  border-bottom: 1px #DB4437 solid;
+  color: #DB4437 !important;
+  text-decoration: underline !important;
 }
 
 nav ul li.button a {
