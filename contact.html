@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="assets/style/nav.css">
   <link rel="stylesheet" href="assets/style/contact.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="assets/js/map.js"></script>
+  <!-- TODO get key for SOS -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTXNkt4npokhjrrw7tnVY9gNVfKLkpz3w&callback=initMap"></script>
   <script src="assets/js/ga.js"></script>
 </head>
 <body>
@@ -38,8 +41,8 @@
     </div>
     <main>
       <div class="row">
-        <div class="col-sm-12 col-xs-offset-1">
-          <hr>
+        <hr>
+        <div class="col-sm-4 col-xs-offset-1">
           <p>
             David Mills<br>
             Global Sales Manager
@@ -55,9 +58,12 @@
             <span>C</span>786.393.7675<br>
             <span>E</span>david@sosfoodlab.com
           </p>
-          <hr>
+        </div>
+        <div class="col-sm-5 col-sm-offset-1 col-xs-offset-1 col-xs-10">
+          <div id="map"></div>
         </div>
       </div>
+      <hr>
     </main>
   </div>
   <footer>
