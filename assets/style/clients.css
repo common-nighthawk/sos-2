@@ -6,6 +6,12 @@ main .image-container {
   height: 160px;
 }
 
+main p a {
+  text-transform: uppercase;
+  display: block;
+  padding-top: 20px;
+}
+
 main .image-container img {
   max-width: 100%;
   max-height: 100%;

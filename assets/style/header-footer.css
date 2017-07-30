@@ -7,17 +7,22 @@ header {
 header img {
   height: 100px;
   margin-top: -10px;
+  margin-left: -5px;
+  float: left;
+}
+
+header .logo, header .contact-info {
+  padding: 0;
 }
 
 header .contact-info {
   text-align: right;
-  /* TODO fix right-side alignment */
-  padding: 30px 130px 0 0;
+  padding-top: 25px;
 }
 
 footer {
   color: #0E2340;
-  height: 226px;
+  height: 140px;
   background-color: #85919F;
   margin-top: 140px;
   box-shadow: 0px 500px 0px 500px #85919F;
@@ -25,29 +30,4 @@ footer {
 
 footer p {
   margin-top: 60px;
-}
-
-footer img{
-  display: inline-block;
-  width: 50px;
-  margin-right: 20px;
-}
-
-@media (max-width: 767px) {
-  header {
-    height: 180px;
-  }
-
-  header .contact-info {
-    text-align: center;
-    padding: 10px 0 0 0;
-  }
-
-  footer img {
-    width: 40px;
-  }
-
-  footer .tiny {
-    padding: 0;
-  }
 }

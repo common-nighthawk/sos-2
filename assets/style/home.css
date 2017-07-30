@@ -4,6 +4,36 @@ main {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   margin: 20px 0 30px 0;
+  position: relative;
+}
+
+main span, main li {
+  display: block;
+  position: absolute;
+  left: 58%;
+  color: white;
+}
+
+main span.one {
+  font-size: 4.5em;
+  top: 80px;
+}
+
+main span.two {
+  font-size: 4.5em;
+  top: 144px;
+}
+
+main span.three {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  top: 230px;
+  left: 58.5%;
+}
+
+main li.button {
+  left: 58.5%;
+  top: 280px;
 }
 
 article p {
@@ -47,4 +77,12 @@ section .horizontal {
   article p {
     margin-left: 0;
   }
+}
+
+@media (max-width: 991px) {
+  main span.one, main span.two {
+    left: 8%;
+  }
+  main span.three, main li.button {
+    left: 8.5%;
 }

@@ -27,6 +27,19 @@ img {
   padding-top: 2em;
 }
 
+.button {
+  padding: 8px 40px;
+  background-color: #0E2340;
+  border-radius: 8px;
+}
+
+.button a {
+  color: white;
+}
+.button a:hover {
+  color: white;
+}
+
 a {
   text-decoration: none;
   color: #0E2340;
