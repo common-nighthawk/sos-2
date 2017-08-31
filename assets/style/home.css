@@ -5,6 +5,14 @@ main {
   background-size: cover !important;
   margin: 20px 0 30px 0;
   position: relative;
+  -webkit-transition: background-image 0.5s linear;
+  -moz-transition: background-image 0.5s linear;
+  -ms-transition: background-image 0.5s linear;
+  transition: background-image 0.5s linear;
+}
+
+main img {
+  display: none;
 }
 
 main span, main li {
@@ -36,8 +44,12 @@ main li.button {
   top: 280px;
 }
 
+article {
+  margin-bottom: 140px;
+}
+
 article p {
-  margin-left: 20px;
+  margin-top: 20px;
 }
 
 section p {
