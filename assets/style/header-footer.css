@@ -4,6 +4,12 @@ header {
   color: #D8D8D8;
 }
 
+header a { color: #D8D8D8; }
+header a:link { color: #D8D8D8; }
+header a:visited { color: #D8D8D8; }
+header a:hover { color: #D8D8D8; }
+header a:active { color: #D8D8D8; }
+
 header img {
   height: 100px;
   margin-top: -10px;
