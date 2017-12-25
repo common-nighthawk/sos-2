@@ -1,9 +1,10 @@
 main .image-container {
   height: 180px;
+  margin-bottom: 20px;
 }
 
 main .row {
-  margin-bottom: 140px;
+  margin-bottom: 120px;
 }
 
 main p {

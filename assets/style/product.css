@@ -1,0 +1,33 @@
+main .image-container {
+  max-height: 480px;
+}
+
+main img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+main p:first-of-type {
+  margin-top: 20px;
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 8px 0;
+  width: 200px;
+  background-color: #0E2340;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.button a {
+  color: white;
+  margin-left: 46px;
+}
