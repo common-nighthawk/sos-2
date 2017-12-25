@@ -33,8 +33,8 @@ nav ul li a.selected {
 
 @media (max-width: 767px) {
   nav {
-    height: 85px;
-    /* height: 220px; */
+    /* height: 85px; */
+    height: 180px;
     padding-top: 20px;
   }
 
