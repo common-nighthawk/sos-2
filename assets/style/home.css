@@ -48,6 +48,10 @@ article p {
   margin-top: 20px;
 }
 
+article .titleize {
+  font-size: 1.4em;
+}
+
 section {
   margin-top: 140px;
 }
@@ -57,7 +61,7 @@ section p {
 }
 
 section p:first-of-type {
-  padding: 50px 10px 20px 10px;
+  padding: 50px 10px 6px 10px;
 }
 
 section .image-container {
@@ -71,7 +75,7 @@ section img {
 
 section .button {
   margin: auto;
-  width: 65%;
+  width: 200px;
 }
 
 section p.button a {
@@ -91,8 +95,12 @@ section .horizontal {
     margin: 0;
   }
 
-  article div {
+  section {
     margin-top: 40px;
+  }
+
+  article div ul {
+    margin-bottom: 0;
   }
 
   article p {
